@@ -1,0 +1,35 @@
+name: Impediment
+description: An issue blocking the scrum development team from proceeding with a planned item in the sprint
+title: "[Impediment]:"
+labels: ["impediment"]
+assignees:
+  - SushmitabSinha
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to raise an impediment!
+  - type: textarea
+    id: description
+    attributes:
+      label: Description 
+      description: Description or reference to the impediment.
+      placeholder: Please provide description
+    validations:
+      required: true
+  - type: input
+    id: BlocksIssues
+    attributes:
+     label: Issues linked with this impediment.
+     description: Mentions the issues
+     placeholder: OWNER/REPOSITORY#ISSUE-NUMBER
+    validations:
+     required: true
+  - type: textarea
+    id: ResolvedReason
+    attributes:
+      label: Resolving Reason
+      description: Reasons for bug getting resolved. Attach screenshot as applicable.
+      placeholder: Please provide full details.
+    validations:
+      required: false
