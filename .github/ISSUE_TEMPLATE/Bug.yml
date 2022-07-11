@@ -1,0 +1,43 @@
+name: Bug
+description: An issue which prevents the function of the product from working as expected.
+title: "[Bug]: "
+labels: ["bug"]
+assignees:
+  - SushmitabSinha
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to raise a bug!
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. email@example.com
+    validations:
+      required: false
+  - type: textarea
+    id: ReproSteps
+    attributes:
+      label: Steps to reproduce the Bug.
+      description: How to see the bug. End by contrasting expected with actual behavior.
+      placeholder: Please provide full detailed steps.
+    validations:
+      required: true
+  - type: input
+    id: prevalence
+    attributes:
+     label: Bug prevalence
+     description: "How often do you or others encounter this bug?"
+     placeholder: "Whenever I visit the user account page (1-2 times a week)"
+    validations:
+     required: true
+  - type: textarea
+    id: ResolvedReason
+    attributes:
+      label: ResolvingReason
+      description: Reasons for bug getting resolved. Attach screenshot as applicable.
+      placeholder: Please provide full details.
+    validations:
+      required: false
