@@ -1,0 +1,27 @@
+name: Story
+description: A new requirement of the SDR product, that is yet to be developed.
+title: "[Story]: "
+labels: ["story"]
+assignees:
+  - SushmitabSinha
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to create a story!
+  - type: textarea
+    id: description
+    attributes:
+      label: Description 
+      description: Description or reference to the story that must work for this work to be considered complete.Please select label among API, UI, Infra, Documentation, Testing, Database (on or more) in addition to story label.
+      placeholder: Please provide description
+    validations:
+      required: true
+  - type: textarea
+    id: AcceptanceCriteria
+    attributes:
+     label: Acceptance Criteria
+     description: Write the acceptance criteria.
+     placeholder:  What needs to be done in scope of story.
+    validations:
+     required: true
