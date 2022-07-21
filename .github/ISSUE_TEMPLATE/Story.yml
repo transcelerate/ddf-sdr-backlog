@@ -32,5 +32,6 @@ body:
      label: Tasks
      description: Mention the tasks related to the story.
      placeholder:  What tasks needs to be added?
+     value: - [ ]
     validations:
      required: false
