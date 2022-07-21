@@ -33,7 +33,7 @@ body:
      description: Mention the tasks related to the story.
      placeholder:  What tasks needs to be added?
      value: |
-     Tasks for story:
-     -[ ]
+       Tasks for story:
+       -[ ]
     validations:
      required: false
