@@ -34,6 +34,6 @@ body:
      placeholder:  What tasks needs to be added?
      value: |
        Tasks for story:
-       -[ ]
+       - [ ]
     validations:
      required: false
