@@ -3,7 +3,7 @@ description: An issue blocking the scrum development team from proceeding with a
 title: "[Impediment]:"
 labels: ["impediment"]
 assignees:
-  - SushmitabSinha
+  - InduSekharSajja
 body:
   - type: markdown
     attributes:
