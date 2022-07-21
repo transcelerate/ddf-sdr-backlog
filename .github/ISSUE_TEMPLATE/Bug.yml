@@ -3,7 +3,7 @@ description: An issue which prevents the function of the product from working as
 title: "[Bug]: "
 labels: ["bug"]
 assignees:
-  - SushmitabSinha
+  - tamizhillakkiya
 body:
   - type: markdown
     attributes:
