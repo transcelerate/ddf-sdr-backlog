@@ -25,3 +25,12 @@ body:
      placeholder:  What needs to be done in scope of story.
     validations:
      required: true
+     
+   - type: textarea
+    id: Tasks
+    attributes:
+     label: Tasks
+     description: Mention the tasks related to the story.
+     placeholder:  What tasks needs to be added?
+    validations:
+     required: false
