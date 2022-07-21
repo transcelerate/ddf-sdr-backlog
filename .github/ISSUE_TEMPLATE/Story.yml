@@ -26,7 +26,7 @@ body:
     validations:
      required: true
      
-   - type: textarea
+  - type: textarea
     id: Tasks
     attributes:
      label: Tasks
